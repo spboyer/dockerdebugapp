@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  dockerdebugapp:
+    image: dockerdebugapp
+    build:
+      context: .
+      dockerfile: Dockerfile
